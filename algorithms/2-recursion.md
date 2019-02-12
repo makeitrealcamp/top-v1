@@ -31,7 +31,7 @@ Take any positive integer n. If n is even, divide n by 2 to get n / 2. If n is o
 
 ```javascript
 console.log(collatz(12)); // 9
-console.log(collatz(19)); // 21
+console.log(collatz(19)); // 20
 console.log(collatz(27)); // 111
 console.log(collatz(837799)); // 524
 ```
