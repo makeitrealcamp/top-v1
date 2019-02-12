@@ -27,3 +27,10 @@ Given a queue determine the minimum number of bribes that took place to get the 
 numberOfBribes([2, 1, 5, 3, 4]); // 3
 numberOfBribes([2, 5, 1, 3, 4]); // -1
 ```
+
+3. Write a function called `closestPairDiff` that recieves an unordered array of numbbers and returns the smallest difference between a pair of numbers.
+
+```javascript
+closestPairDiff([21, 6, 9, 2]); // 3 (6 and 9 are the closest pairs)
+closestPairDiff([9, 4, 14, 11, 28, 19]); // 2 (9 and 11 are the closest pairs)
+```
