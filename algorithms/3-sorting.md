@@ -8,7 +8,7 @@ Implement the following sorting algorithms based on the description shown [here]
 * Merge sort
 * Quick sort
 
-## Exercises
+## Exercises
 
 1. Modify the insertion sort algorithm to sort an array in descending order.
 
