@@ -65,3 +65,25 @@ isBalanced("(((())))"); // true
 isBalanced("(((()))"); // false
 isBalanced("())(()"); // false
 ```
+
+4. Solve the [Tower of Hanoi](https://en.wikipedia.org/wiki/Tower_of_Hanoi) problem starting with three stacks of numbers.
+
+The rules are the following:
+
+1. Only one disk can be moved at a time.
+2. Each move consists of taking the upper disk from one of the stacks and placing it on top of another stack or on an empty rod.
+3. No larger disk may be placed on top of a smaller disk.
+
+```javascript
+const a = [4, 3, 2, 1];
+const b = [];
+const c = [];
+
+// your code here
+
+// a: []
+// b: []
+// c: [4, 3, 2, 1]
+```
+
+**Note:** You can also use the `Stack` data structure you created.
