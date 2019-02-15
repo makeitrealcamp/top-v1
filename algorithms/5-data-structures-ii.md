@@ -66,6 +66,6 @@ Al reversar el árbol debería quedar de la siguiente forma:
    5 3   1
 ```
 
-# Gráfos
+## Sudoku
 
-Implementa un gráfo 
+# Gráfos
