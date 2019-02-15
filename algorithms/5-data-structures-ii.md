@@ -68,4 +68,16 @@ Al reversar el árbol debería quedar de la siguiente forma:
 
 ## Sudoku
 
+Write a function called `sudoku` that receives a string representing a sudoku board and return true if it can be solved, false otherwise.
+
+You must divide the string in groups of 9 that represent each row of the board. Spaces are represented with the dash character (`.`).
+
+```javascript
+var board = "...26.7.168..7..9.19...45..82.1...4...46.29...5...3.28..93...74.4..5..367.3.18...";
+sudoku(board); // true
+
+board = "..9.287..8.6..4..5..3.....46.........2.71345.........23.....5..9..4..8.7..125.3.."
+sudoku(board); // false
+```
+
 # Gráfos
