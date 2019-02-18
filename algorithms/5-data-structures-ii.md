@@ -97,5 +97,11 @@ shortestPath(mat); //
 2. Write a function called `travelSalesman` that receives a graph (adjacency matrix) and a source node. The function must return the minimum cost of of visiting all the nodes.
 
 ```javascript
-
+const mat = [
+  [0, 10, 15, 20],
+  [5, 0, 9, 10],
+  [6, 13, 0, 12],
+  [8, 8, 9, 0]
+];
+travelSalesman(mat, 0); // 35
 ```
