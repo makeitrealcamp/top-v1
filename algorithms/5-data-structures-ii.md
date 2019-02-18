@@ -81,3 +81,21 @@ sudoku(board); // false
 ```
 
 # Gráfos
+
+1. Write a function called `shortestPath` that receives three arguments: a graph (adjacency matrix), source node, and destination node. The function must return the value of the shortest path between the two nodes, or -1 if there is no route.
+
+```javascript
+const mat = [
+  [0, 10, 15, 20],
+  [5, 0, 9, 10],
+  [6, 13, 0, 12],
+  [8, 8, 9, 0],
+]
+shortestPath(mat); //
+```
+
+2. Write a function called `travelSalesman` that receives a graph (adjacency matrix) and a source node. The function must return the minimum cost of of visiting all the nodes.
+
+```javascript
+
+```
